@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/accessibility.rpy", line 118, in script
+    init python:
+  File "game/accessibility.rpy", line 173, in <module>
+    concrete : _("The Concrete Bakes"),
+NameError: name 'concrete' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/accessibility.rpy", line 118, in script
+    init python:
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/accessibility.rpy", line 173, in <module>
+    concrete : _("The Concrete Bakes"),
+NameError: name 'concrete' is not defined
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.3.0.24082114
+Valmont: Prologue - Hidden Initiation beta-test-0.1
+Tue Oct 15 20:03:07 2024

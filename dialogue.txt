@@ -1,0 +1,187 @@
+Beginning
+Started a new game
+Office
+Went to the office
+Beach
+Went to the beach
+Completionist
+Read all of the game
+You obtained an achievement:
+Sound: 
+Music: 
+A door closes
+A drawer closes
+A drawer opens
+Ocean waves hit the shore
+Future Business
+The Concrete Bakes
+Sculpture Garden
+Careless Summer
+Content Warning
+This is just a GUI template for projects, but if you have sensitive content that may not be suitable for all audience, this is a screen to alert players ahead of time.
+List your content warnings here!
+By clicking confirm, you affirm that you are willing to interact with such content.
+Confirm
+Set Your Preferences
+You can set your preferences for game settings in the next menu. These options can be adjusted at any time in the menu.
+Achievements
+Sprite Gallery
+Background Gallery
+Music Room
+Replay Room
+Developer Notes
+???
+Return
+Developer's Notes
+Hello, this is BáiYù of tofurocks here. I want to thank you for downloading this All-In-One GUI template to use in your own game, though it's been a while since I last updated this, hasn't it? Somehow when I updated Eileen's sprite with the latest version of Mannequin, Ren'Py wouldn't recognize her new Happy face layer... I hope that it's okay though.\n\n\n\nWhile the code provided here is almost a straight copy from the official documentation for the most part, I purposely kept it very bare-bones so that you can customize the GUI yourself. I hope that by sharing this with others, the overall quality of all Ren'Py games will improve.\n\n\n\nThank you for taking the time to read this, and I wish you the best on your development adventures to come.
+Credits\n\n\n\n\n\nProgramming\n\n\n\nBáiYù\n\n\n\nbobcgames\n\n\n\nnpckc\n\n\n\nTheoMinute\n\n\n\n\n\nArt\n\n\n\nSprites - Mannequin by HelloAR14\n\n\n\nBackgrounds - Uncle Mugen\n\n\n\n\n\nSoundtrack\n\n\n\nEric Matyas\n\n\n\n\n\nSpecial Thanks\n\n\n\nRenall\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMade with\n\n\n\nRen'Py [renpy.version_only].\n\n\n\n\n\n\n\n\n\nThanks for Playing!
+Skip End Credits
+Script Seen: [readtotal]%
+All-In-One GUI Template
+This Ren'Py GUI Template was put together by BáiYù with additional code by bobcgames, TheoMinute and npckc. This release is under a MIT license, meaning you may modify and use this code in any games you make, even commercial ones. You do not to need to ask permission from me, bobcgames, minute, or npckc to use the code in this project, though credit to us all is highly appreciated. If you wish to use the visual and audio assets in your game, please refer to those individual licenses.\n\nEileen Sprite made with Mannequin by AR14\n\nBackgrounds made by mugenjohncel\n\nMusic composed by Eric Matyas\n\nIf you'd like to see more free Ren'Py codes and GUIs in the future or support the other things I do, consider leaving a tip on the itch.io page!\n\nThis template was last updated on May 25, 2024, tested on both Ren'Py Version 7.7.1 and Version 8.2.1.\n\n(From here on, it's the boilerplate text that's in screens.rpy!)
+-
+You have unlocked [numachievements] / [BOBCACHIEVEMENTS_NUMACHIEVEMENTS] achievements!
+Back
+History
+Skip
+Auto
+Save
+Q.Save
+Q.Load
+Prefs
+Start
+Load
+Preferences
+End Replay
+Main Menu
+About
+Help
+Extras
+Quit
+Version [config.version!t]\n
+Made with Ren'Py [renpy.version_only].\n\n[renpy.license!t]
+Page 
+Automatic saves
+Quick saves
+%A, %B %d %Y, %H:%M
+empty slot
+<
+A
+Q
+>
+Upload Sync
+Download Sync
+Display
+Window
+Fullscreen
+Unseen Text
+After Choices
+Transitions
+Toggles
+Image Descriptions
+Audio Titles
+Self-Voicing
+Typeface
+DejaVu Sans
+Hyperlegible
+Font Size
+Large
+Regular
+Text Color
+White
+Cream
+Line Spacing
+Taller
+Text Speed
+Auto-Forward Time
+Textbox Opacity
+Music Volume
+Sound Volume
+Test
+Voice Volume
+Mute All
+Keyboard
+Mouse
+Gamepad
+Enter
+Advances dialogue and activates the interface.
+Space
+Advances dialogue without selecting choices.
+Arrow Keys
+Navigate the interface.
+Escape
+Accesses the game menu.
+Ctrl
+Skips dialogue while held down.
+Tab
+Toggles dialogue skipping.
+Page Up
+Rolls back to earlier dialogue.
+Page Down
+Rolls forward to later dialogue.
+Hides the user interface.
+Takes a screenshot.
+Toggles assistive self-voicing.
+Opens the accessibility menu.
+Left Click
+Middle Click
+Right Click
+Mouse Wheel Up\nClick Rollback Side
+Mouse Wheel Down
+Right Trigger\nA/Bottom Button
+Left Trigger\nLeft Shoulder
+Right Shoulder
+D-Pad, Sticks
+Start, Guide
+Y/Top Button
+Calibrate
+Yes
+No
+Skipping
+Menu
+You've created a new Ren'Py game.
+Once you add a story, pictures, and music, you can release it to the world!
+Haha, sorry. Had to get that out of the way first.
+Thanks for downloading this All-In-One GUI Template! After you play through this script, be sure to open up the files and adjust the options.rpy, gui.rpy, and screens.rpy to fit your own project's needs!
+You can even make a copy of the entire game folder and start your project from there.
+We recently updated the template to include the Bubble-style dialogue windows too, by the way!
+So now, let's demonstrate some of the custom Accessibility Options.
+When you run this project for the first time, you should have been able to adjust the Audio and Image Caption options.
+I'll make some sounds now. If Audio Captions are on, you'll see a notification in the top-left corner describing the sound.
+Let's close this so the breeze doesn't mess up my hair...
+Let me look for a pen...
+Not in there?
+Maybe here?
+Found it!
+If you had your Audio Captions on, you should have seen something appear in the notification tab.
+Neat, right?
+Now let's test Image Captions.
+Eileen walks to the right of the room.
+Over here...
+Eileen walks to the left of the room.
+Now here...
+Eileen walks to the center of the room.
+And there we go!
+If you had your Image Captions on, then you should have seen some extra narration describing my movements.
+This is done with the special ic speaker tag we defined in accessibility.rpy.
+Now, let's test the Screen Shake settings.
+The room shakes.
+If you had it on, did you notice how robust that Screen Shake was? That wasn't the classic hpunch.
+This time around, we added in a custom Shake function that is randomized each time, with varying levels of intensity you can choose from.
+You can turn the screen shaking effect off in Preferences, just in case the motion makes you or your players sick. One more time.
+The room shakes again.
+Now let's try NVL Mode.
+NVL Mode is a different way of displaying text on the screen.
+Unlike ADV, past lines of dialogue are still displayed until it is cleared off.
+Usually NVL will cover the entire screen, but you can adjust the size of the window to only cover a certain part if need be.
+Not all games may need to use both ADV and NVL, but it's nice to have options as a developer.
+With that said, let's go somewhere else.
+Eileen wonders where she should travel to.
+To the office? Okay...?
+Ugh, you know that saying about \"all work and no play,\" right?
+Eileen seems bothered by something.
+The beach sounds fun!
+Hehe, I have a swimsuit now!
+Eileen seems pleased with herself.
+Remember to check the History screen if you have not done so yet.
+Fin
